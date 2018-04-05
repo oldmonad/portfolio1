@@ -15,10 +15,10 @@
     <nav class="nav">
       <!-- container here -->
       <div class="container">
-        <ul class="nav__list">
+        <ul class="nav__list clearfix">
           <li class="nav__left">
-            <a href="index.html" class="nav__link">
-              <img src="assets/img/icon.png" width="80px" />
+            <a href="index.html" class="nav__link nav__brand">
+              <img src="assets/img/icon.png"/>
             </a>
           </li>
           <li class="nav__right">
@@ -46,7 +46,10 @@
 
     <!-- project section -->
     <section class="project">
-      <div class="container">
+      <div class="container container--lg-width">
+      	<div class="section-heading">
+      	 <h3 class="section-heading__title">Projects</h3>
+      	</div>
         <!-- GRID SYSTEM AT WORK HERE -->
         <div class="grid">
           <div class="col-33 col-x-100">
@@ -117,13 +120,13 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-33 col-x-100">
             <div class="card">
               <div class="card__body">
               	<div class="card__overlay">
                  <div class="card__overlay-details">
-                  <div class="card__icons">&AElig;</div>
+                  <div class="card__icons">&Eogon;</div>
                   <a href="#" class="card__links" target="_blank">Visit Project</a>
                  </div>
                 </div>
@@ -158,8 +161,11 @@
     </section>
 
     <!-- form section -->
-    <section class="job">
-     <div class="container">
+    <section class="job" id="job">
+     <div class="container container--lg-width">
+     	<div class="project__heading">
+      	<h3 class="section-heading__title">If you like what you see hit me up!</h3>
+      </div>
       <form class="job__form">
         <div>
         	<textarea class="job__textarea"></textarea>
@@ -178,13 +184,12 @@
   </main>
 
   <footer class="footer">
-   <div class="container">
+   <div class="container container--lg-width">
    	 <div class="footer__wrap">
-      <ul class="footer__list">
-        <li class="footer__left">Copyright &copy; 2018</li>
+      <ul class="footer__list clearfix">
+       <li class="footer__left">Copyright &copy; 2018</li>
         <li class="footer__right">
           <ul class="footer__list">
-            <li>Contact</li>
             <li>
               <ul class="footer__list">
                 <li>
